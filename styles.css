@@ -1,0 +1,125 @@
+/* Reset some default styling */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic reset and styling for body */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1c1c1c;
+    color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #000000, #1c1c1c);
+}
+
+/* Container styling */
+.invitation-container {
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+}
+
+/* Header styling */
+.invitation-header {
+    background: url('https://www.sportcal.com/wp-content/uploads/sites/32/2023/05/main645e17a39ff80.png') no-repeat center center/cover;
+    color: #fff;
+    padding: 50px 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    background-blur: 5px;
+}
+
+.invitation-header h1 {
+    font-size: 3.5em;
+    margin-bottom: 0.5em;
+    font-weight: 700;
+    animation: fadeIn 2s ease-out;
+}
+
+.invitation-header p {
+    font-size: 1.5em;
+    font-weight: 300;
+    animation: fadeIn 2s ease-out 0.5s;
+}
+
+/* Main content styling */
+.invitation-content {
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.event-details {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.event-details h2 {
+    margin-bottom: 10px;
+    font-size: 2.2em;
+    font-weight: 600;
+    color: #ff4d4d; /* CS:GO red color */
+}
+
+.event-details p {
+    font-size: 1.1em;
+    margin-bottom: 8px;
+}
+
+/* Call-to-action button styling */
+.register-button {
+    display: inline-block;
+    background: linear-gradient(45deg, #ff4d4d, #c70039); /* CS:GO red gradient */
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-size: 1.3em;
+    border-radius: 8px;
+    margin-top: 15px;
+    font-weight: 600;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.register-button:hover {
+    background: linear-gradient(45deg, #c70039, #ff4d4d);
+    transform: scale(1.05);
+}
+
+/* Footer styling */
+.invitation-footer {
+    background: #333;
+    color: #fff;
+    padding: 15px;
+    font-size: 0.9em;
+    border-top: 1px solid #444;
+}
+
+.invitation-footer p {
+    margin: 0;
+}
+
+.invitation-footer a {
+    color: #ff4d4d; /* CS:GO red color */
+    text-decoration: none;
+}
+
+.invitation-footer a:hover {
+    text-decoration: underline;
+}
+
+/* Keyframes for fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
