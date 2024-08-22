@@ -1,0 +1,100 @@
+/* Reset some default styling */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic reset and styling for body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container styling */
+.invitation-container {
+    background: #2a2a2a;
+    color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Header styling */
+.invitation-header {
+    background: url('https://example.com/csgo-background.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 20px;
+}
+
+.invitation-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.invitation-header p {
+    font-size: 1.2em;
+}
+
+/* Main content styling */
+.invitation-content {
+    padding: 20px;
+}
+
+.event-details {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.event-details h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.event-details p {
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+/* Call-to-action button styling */
+.register-button {
+    display: inline-block;
+    background-color: #ffcc00;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.register-button:hover {
+    background-color: #e6b800;
+}
+
+/* Footer styling */
+.invitation-footer {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.invitation-footer p {
+    font-size: 0.9em;
+}
+
+.invitation-footer a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.invitation-footer a:hover {
+    text-decoration: underline;
+}
